@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2D Platformer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="timer">
+      <div>📦 Raum: <span id="room-count">1</span></div>
+      <div>⏱️ Raumzeit: <span id="room-time">0.0</span>s</div>
+      <div>⏲️ Gesamtzeit: <span id="total-time">0.0</span>s</div>
+      <div>❤️ Leben: <span id="lives">3</span></div>
+    </div>
+    <div id="viewport">
+      <div id="game">
+        <div id="player"></div>
+        <div id="goal"></div>
+      </div>
+    </div>
+  </div>
+  <div id="fog"></div>
+  <script src="script.js"></script>
+</body>
+</html>
